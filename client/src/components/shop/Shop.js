@@ -1,6 +1,7 @@
 import React from "react";
 import ItemList from "./ItemList";
 
+// shop components
 const Shop = () => {
   return (
     <div>

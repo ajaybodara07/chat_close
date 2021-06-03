@@ -1,6 +1,7 @@
 import React from "react";
 import Pikachu from "../../assets/images/pokemon.png";
 
+// pass lime-set landing data
 const Landing = () => {
   return (
     <div>

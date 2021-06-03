@@ -12,7 +12,7 @@ require("./models/Coupons");
 
 mongoose
   .connect(config.mongoURI, { useNewUrlParser: true })
-  .then(() => console.log("MongoDB connected..."))
+  .then(() => console.log("MongoDB connected start..."))
   .catch(err => console.log(err));
 
 app.use(bodyParser.json());
